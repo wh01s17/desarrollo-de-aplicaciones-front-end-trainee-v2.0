@@ -1,0 +1,21 @@
+/* Selector por etiqueta */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Selector por ID */
+#about {
+    background-color: chocolate;
+}
+
+/* Clase de CSS */
+.oscuro {
+    background-color: black;
+    color: white;
+}
+
+.claro {
+    background-color: white;
+    color: black;
+}

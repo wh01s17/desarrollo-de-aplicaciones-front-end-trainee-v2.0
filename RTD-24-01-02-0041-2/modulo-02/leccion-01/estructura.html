@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Estructura Semántica</title>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header
+            style="
+                background-color: yellow;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            "
+        >
+            <h1>Header</h1>
+        </header>
+
+        <nav
+            style="
+                background-color: red;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            "
+        >
+            <h2>Navbar</h2>
+        </nav>
+
+        <main
+            style="
+                background-color: blue;
+                display: flex;
+                height: calc(100dvh - 80px - 30px - 30px);
+            "
+        >
+            <section style="width: 70%">
+                <article>
+                    <h2>Articulo 1</h2>
+                </article>
+
+                <article>
+                    <h2>Articulo 2</h2>
+                </article>
+            </section>
+
+            <aside style="background-color: blueviolet; width: 30%">
+                <h2>Aside</h2>
+            </aside>
+        </main>
+
+        <footer
+            style="
+                background-color: yellow;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            "
+        >
+            <h2>Footer</h2>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+.card-pelicula {
+    cursor: pointer;
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+
+.card-pelicula:hover {
+    transform: translateY(-5px);
+    /* box-shadow recibe hasta 5 propiedades */
+    /* desplazamiento-x desplazamiento-y desenfoque propagacion color */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-pelicula .card-img-top {
+    height: 200px;
+}
+
+#vista-detalle {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+#detalle-container .img-fluid {
+    max-height: 400px;
+}
+
+#detalle-container .list-group-item {
+    background-color: #16213e;
+    color: #e0e0e0;
+}
