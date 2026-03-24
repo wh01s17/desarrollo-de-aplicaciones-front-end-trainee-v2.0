@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Bloque de header o cabecera */
+.header {
+    text-align: center;
+}
+
+.header__title {
+    margin: 10px;
+}
+
+.header__image {
+    width: 100%;
+}
+
+/* Bloque info */
+.info {
+    display: flex;
+    padding: 4rem 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info__media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info__image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Bloque de caracteristicas */
+.features {
+    text-align: center;
+    background-color: rgb(53, 47, 40);
+    padding: 30px;
+}
+
+.features__title {
+    margin-bottom: 60px;
+}
+
+.features__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* Bloque de galeria */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.gallery__img {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* Bloque de footer o pie de página */
+.footer {
+    background-color: rgb(53, 47, 40);
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.footer__link {
+    color: white;
+    text-decoration: none;
+}
