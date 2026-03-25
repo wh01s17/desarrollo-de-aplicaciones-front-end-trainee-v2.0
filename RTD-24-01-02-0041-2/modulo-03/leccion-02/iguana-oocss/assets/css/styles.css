@@ -1,0 +1,99 @@
+/* Base */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Objetos de estructura - Layout reutilizable */
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.media-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.media-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* Objeto: lista */
+.horizontal-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+/* Objeto galeria */
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.image-grid-item {
+    width: 100%;
+    max-width: 280px;
+}
+
+/* Objeto: Titulos */
+.heading {
+    margin: 10px;
+}
+
+.heading-section {
+    margin-bottom: 60px;
+}
+
+/* Skin */
+.skin-brown {
+    background-color: rgb(53, 47, 40);
+}
+
+.skin-rounded {
+    border-radius: 10px;
+}
+
+/* Utilidades */
+.text-center {
+    text-align: center;
+}
+
+.img-full {
+    width: 100%;
+    height: auto;
+}
+
+.link-plain {
+    color: white;
+    text-decoration: none;
+}
+
+.font-lg {
+    font-size: large;
+}
+
+.spacing-sm {
+    padding: 20px;
+}
+
+.spacing-md {
+    padding: 30px;
+}
+
+.spacing-lg {
+    padding: 4rem 10%;
+}

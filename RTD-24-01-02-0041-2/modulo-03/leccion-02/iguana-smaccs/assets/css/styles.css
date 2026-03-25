@@ -1,0 +1,92 @@
+/* Base */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+.l-header {
+    text-align: center;
+}
+
+.l-header-title {
+    margin: 10px;
+}
+
+.l-header-image {
+    width: 100%;
+}
+
+.l-footer {
+    background-color: rgb(53, 47, 40);
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.l-footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+/* TAREA - REFACTORIZAR EL RESTO CON SMACCS */
+/* Modules */
+.info-iguana {
+    display: flex;
+    /* rem, root */
+    padding: 4rem 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.info-iguana-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info-iguana-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.info-iguana-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#caracteristicas-iguana {
+    text-align: center;
+    background-color: rgb(53, 47, 40);
+    padding: 30px;
+}
+
+#caracteristicas-iguana ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+#caracteristicas-iguana h2 {
+    margin-bottom: 60px;
+}
+
+#galeria {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+#galeria img {
+    width: 100%;
+    max-width: 280px;
+}
