@@ -32,18 +32,16 @@ body {
     text-decoration: none;
 }
 
-/* TAREA - REFACTORIZAR EL RESTO CON SMACCS */
-/* Modules */
-.info-iguana {
+/* Module: Info */
+.info {
     display: flex;
-    /* rem, root */
     padding: 4rem 10%;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 }
 
-.info-iguana-texto {
+.info-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,42 +49,43 @@ body {
     width: 50%;
 }
 
-.info-iguana-img {
+.info-media {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
-.info-iguana-img img {
+.info-image {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
-
-#caracteristicas-iguana {
+/* Module: Features */
+.features {
     text-align: center;
     background-color: rgb(53, 47, 40);
     padding: 30px;
 }
 
-#caracteristicas-iguana ul {
+.features-list {
     display: flex;
     list-style: none;
     justify-content: space-around;
 }
 
-#caracteristicas-iguana h2 {
+.features-title {
     margin-bottom: 60px;
 }
 
-#galeria {
+/* Module: Gallery */
+.gallery {
     display: flex;
     justify-content: space-between;
     padding: 60px 100px;
 }
 
-#galeria img {
+.gallery-image {
     width: 100%;
     max-width: 280px;
 }
