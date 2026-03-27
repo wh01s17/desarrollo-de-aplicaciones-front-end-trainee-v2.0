@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+// %, es un placeholder selector, que se utiliza para definir estilos que pueden ser extendidos por otros selectores
+%base-paragraph {
+    font-weight: weight(regular);
+
+    &:hover {
+        color: pink;
+    }
+}
+
+.main {
+    @include flex-center(row);
+    width: 80% - 40%;
+    margin: 0 auto;
+
+    &__paragraph1 {
+        @extend %base-paragraph;
+    }
+
+    &__paragraph2 {
+        @extend %base-paragraph;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
+    @include mobile {
+        width: 100%;
+        flex-direction: column;
+    }
+}

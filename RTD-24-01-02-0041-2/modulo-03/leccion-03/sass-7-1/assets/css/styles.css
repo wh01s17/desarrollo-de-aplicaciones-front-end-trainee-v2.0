@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #272727;
+  color: #fff;
+}
+
+.main__paragraph2, .main__paragraph1 {
+  font-weight: 400;
+}
+.main__paragraph2:hover, .main__paragraph1:hover {
+  color: pink;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 40%;
+  margin: 0 auto;
+}
+.main__paragraph2:hover {
+  color: #ff652f;
+}
+@media (max-width: 800px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.light {
+  background-color: #272727;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
