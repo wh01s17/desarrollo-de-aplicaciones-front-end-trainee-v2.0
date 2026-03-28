@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Box Model - Layout</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <h1>Box Model y Layout</h1>
+
+        <h2>1. Box</h2>
+        <div class="box-model">Contenido con padding, margin y border</div>
+
+        <h2>2. box-sizing</h2>
+        <div class="box-sizing">
+            <div class="box-sizing__item box-sizing__item--content">
+                <b>content-box</b> width: 300px, real 346px
+            </div>
+            <div class="box-sizing__item box-sizing__item--border">
+                <b>border-box</b> width: 300px
+            </div>
+        </div>
+
+        <h2>3. Tipos de display</h2>
+        <div class="display">
+            <div class="display__item--block">block: ocupa todo el ancho</div>
+            <div class="display__item--block">block: se apila abajo</div>
+        </div>
+
+        <div class="display">
+            <span class="display__item--inline">Inline 1</span>
+            <span class="display__item--inline">Inline 2</span>
+            <span class="display__item--inline">Inline 3</span>
+        </div>
+
+        <div class="display">
+            <div class="display__item--inline-block">inline-block 1</div>
+            <div class="display__item--inline-block">inline-block 2</div>
+        </div>
+
+        <h2>4. Flexbox</h2>
+        <div class="tarjetas">
+            <div class="tarjeta">Tarjeta 1</div>
+            <div class="tarjeta">Tarjeta 2</div>
+            <div class="tarjeta">Tarjeta 3</div>
+            <div class="tarjeta">Tarjeta 4</div>
+        </div>
+
+        <h2>5. Grid</h2>
+        <div class="grid">
+            <div class="grid__item">1</div>
+            <div class="grid__item">2</div>
+            <div class="grid__item">3</div>
+            <div class="grid__item">4</div>
+        </div>
+
+        <h2>6. Posicionamiento bloques de texto</h2>
+        <div class="bloque-texto bloque-texto__izq">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div class="bloque-texto bloque-texto__der">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <div class="bloque-texto bloque-texto--texto-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+            delectus eligendi dolor amet placeat nostrum impedit iure et harum
+            libero tempore numquam laborum doloribus quasi, cumque officiis eum
+            reprehenderit aliquam.
+        </div>
+
+        <div class="bloque-texto bloque-texto--texto-full">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            eveniet ipsum nam fuga voluptatum dolores nobis distinctio amet
+            dolorem mollitia quod libero corrupti cum, consequuntur ratione
+            quibusdam nisi ad accusamus!
+        </div>
+    </body>
+</html>
