@@ -26,18 +26,18 @@ const productos = [
 ];
 const entrada = document.getElementById("entrada");
 
-function render(listaParam) {
+function render(listaProductos) {
     const resultado = document.getElementById("resultados");
     resultado.textContent = "";
 
-    if (listaParam.length === 0) {
+    if (listaProductos.length === 0) {
         resultado.textContent = "No hay resultados :c";
         return;
     }
 
     const lista = document.createElement("ul");
 
-    for (let producto of listaParam) {
+    for (let producto of listaProductos) {
         const elemento = document.createElement("li");
         elemento.textContent = producto.nombre;
         lista.appendChild(elemento);
