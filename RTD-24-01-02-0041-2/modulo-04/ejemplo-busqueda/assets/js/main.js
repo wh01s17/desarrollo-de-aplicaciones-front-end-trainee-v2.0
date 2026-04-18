@@ -27,11 +27,11 @@ const productos = [
 const entrada = document.getElementById("entrada");
 
 function render(listaProductos) {
-    const resultado = document.getElementById("resultados");
-    resultado.textContent = "";
+    const resultados = document.getElementById("resultados");
+    resultados.textContent = "";
 
     if (listaProductos.length === 0) {
-        resultado.textContent = "No hay resultados :c";
+        resultados.textContent = "No hay resultados :c";
         return;
     }
 
@@ -43,7 +43,7 @@ function render(listaProductos) {
         lista.appendChild(elemento);
     }
 
-    resultado.appendChild(lista);
+    resultados.appendChild(lista);
 }
 
 entrada.addEventListener("input", function () {
