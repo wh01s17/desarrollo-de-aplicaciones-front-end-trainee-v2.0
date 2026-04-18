@@ -24,10 +24,11 @@ const productos = [
         stock: 15,
     },
 ];
+
 const entrada = document.getElementById("entrada");
+const resultados = document.getElementById("resultados");
 
 function render(listaProductos) {
-    const resultados = document.getElementById("resultados");
     resultados.textContent = "";
 
     if (listaProductos.length === 0) {
@@ -46,7 +47,7 @@ function render(listaProductos) {
     resultados.appendChild(lista);
 }
 
-entrada.addEventListener("input", function () {
+entrada.addEventListener("input", () => {
     const texto = entrada.value.toLowerCase();
 
     const filtrada = productos.filter((p) =>
