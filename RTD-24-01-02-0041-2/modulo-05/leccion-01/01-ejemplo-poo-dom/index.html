@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>POO + DOM</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <main class="container py-5">
+            <section class="card mb-4 text-center">
+                <div class="card-body">
+                    <h2>Contador</h2>
+                    <h2 id="contador-valor" class="fs-4">0</h2>
+
+                    <div class="d-flex gap-2 justify-content-center">
+                        <button id="btn-decrementar" class="btn btn-primary">
+                            -
+                        </button>
+
+                        <button id="btn-reiniciar" class="btn btn-warning">
+                            Reiniciar
+                        </button>
+
+                        <button id="btn-incrementar" class="btn btn-primary">
+                            +
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card mb-4 text-center">
+                <div class="card-body">
+                    <h2>Cronómetro</h2>
+
+                    <p>
+                        Hora de creación:
+                        <strong id="hora-creacion"></strong>
+                    </p>
+
+                    <p>
+                        Tiempo:
+                        <strong id="cronometro-valor">0</strong>
+                        segundos
+                    </p>
+
+                    <div class="d-flex gap-2 justify-content-center">
+                        <button id="btn-tiempo" class="btn btn-success">
+                            Mostrar Tiempo
+                        </button>
+                        <button
+                            id="btn-reiniciar-crono"
+                            class="btn btn-secondary"
+                        >
+                            Reiniciar
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
