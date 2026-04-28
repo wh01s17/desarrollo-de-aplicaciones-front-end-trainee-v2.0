@@ -16,7 +16,7 @@ async function dataThen() {
 
 dataThen().then((res) => console.log(res.name));
 
-// Funciones async/await separadas
+// 3 - Funciones async/await separadas
 async function getData() {
     const res = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
 
@@ -31,7 +31,7 @@ async function showData() {
 
 showData();
 
-// Arrow functions + async/await
+// 4 - Arrow functions + async/await
 const obtenerDatos = async () => {
     const res = await fetch("https://pokeapi.co/api/v2/pokemon/mewtwo");
 
