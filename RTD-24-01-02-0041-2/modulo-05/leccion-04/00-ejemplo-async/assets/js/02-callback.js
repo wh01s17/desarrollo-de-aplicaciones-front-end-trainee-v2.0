@@ -1,5 +1,6 @@
 function saludar(nombre, callback) {
     console.log(`Hola ${nombre}`);
+
     callback();
 }
 
