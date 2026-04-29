@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PokeAPI</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <main
+            class="container d-flex flex-column align-items-center justify-content-center py-5"
+        >
+            <h1>🎶Atrapalos ya! Pokemón!🎶</h1>
+            <img
+                src="assets/img/pokebola.png"
+                alt="pokeball"
+                class="pokeball mb-5"
+            />
+
+            <form id="buscador" class="mb-5 mx-auto">
+                <div class="input-group">
+                    <input
+                        id="filtro"
+                        type="text"
+                        class="form-control"
+                        placeholder="Ej: pikachu, gengar, ditto"
+                    />
+
+                    <button type="submit" class="btn btn-primary">
+                        Buscar
+                    </button>
+                </div>
+            </form>
+
+            <section
+                id="resultados"
+                class="d-flex flex-column align-items-center"
+            ></section>
+        </main>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
