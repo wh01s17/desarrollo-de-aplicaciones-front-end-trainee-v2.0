@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>v-if & v-show</title>
+    </head>
+    <body>
+        <main id="myApp">
+            <h1>Citas de Lord Of The Rings</h1>
+            <!-- <button v-on:click="toggleAuthor">Mostrar/Ocultar Author</button> -->
+            <button @click="toggleAuthor">Mostrar/Ocultar Author</button>
+            <hr />
+
+            <ul>
+                <!-- <li v-for="frase in quotes">
+                    <span>{{frase.quote}}</span>
+                    <blockquote>- {{frase.author}}</blockquote>
+                </li> -->
+
+                <li v-for="({quote, author}, indice) in quotes">
+                    <span>{{ indice + 1 }} - {{ quote }}</span>
+                    <!-- <blockquote v-if="showAuthor">- {{ author }}</blockquote> -->
+                    <blockquote v-show="showAuthor">- {{ author }}</blockquote>
+                </li>
+            </ul>
+        </main>
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

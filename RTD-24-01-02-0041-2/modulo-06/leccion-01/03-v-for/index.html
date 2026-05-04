@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>v-for</title>
+    </head>
+    <body>
+        <main id="myApp">
+            <h1>Citas de Lord Of The Rings</h1>
+            <hr />
+
+            <ul>
+                <!-- <li v-for="frase in quotes">
+                    <span>{{frase.quote}}</span>
+                    <blockquote>- {{frase.author}}</blockquote>
+                </li> -->
+
+                <li v-for="{quote, author} in quotes">
+                    <span>{{ quote }}</span>
+                    <blockquote>- {{ author }}</blockquote>
+                </li>
+            </ul>
+        </main>
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
