@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "quote": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.",
+        "author": "Inscription of the One Ring"
+    },
+    {
+        "id": 2,
+        "quote": "You shall not pass!",
+        "author": "Gandalf, The Fellowship of the Ring"
+    },
+    {
+        "id": 3,
+        "quote": "One does not simply walk into Mordor.",
+        "author": "Boromir, The Fellowship of the Ring"
+    },
+    {
+        "id": 4,
+        "quote": "Even the smallest person can change the course of the future.",
+        "author": "Galadriel, The Fellowship of the Ring"
+    },
+    {
+        "id": 5,
+        "quote": "All we have to decide is what to do with the time that is given us.",
+        "author": "Gandalf, The Fellowship of the Ring"
+    },
+    {
+        "id": 6,
+        "quote": "My precious.",
+        "author": "Gollum, The Two Towers"
+    },
+    {
+        "id": 7,
+        "quote": "I can't carry it for you... but I can carry you!",
+        "author": "Samwise Gamgee, The Return of the King"
+    },
+    {
+        "id": 8,
+        "quote": "For Frodo.",
+        "author": "Aragorn, The Return of the King"
+    }
+]

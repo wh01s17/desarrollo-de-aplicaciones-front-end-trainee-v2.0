@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Props</title>
+    </head>
+    <body>
+        <main id="myApp">
+            <h1>Citas de Lord Of The Rings</h1>
+            <hr />
+
+            <ul>
+                <quote-list
+                    v-for="{id, quote, author} in quotes"
+                    :key="id"
+                    :cita="quote"
+                    :autor="author"
+                >
+                </quote-list>
+            </ul>
+        </main>
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
