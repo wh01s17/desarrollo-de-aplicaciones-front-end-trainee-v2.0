@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "nombre": "Boromir",
+        "raza": "Humano",
+        "bando": "comunidad",
+        "nivel": 65,
+        "arma": "Espada y escudo",
+        "imagen": "https://placehold.co/200x200/6c6c6c/ffffff?text=Boromir",
+        "frases": [
+            "Uno no entra simplemente caminando a Mordor",
+            "Mi hermano, mi capitán, mi rey"
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Aragorn",
+        "raza": "Humano",
+        "bando": "comunidad",
+        "nivel": 80,
+        "arma": "Andúril",
+        "imagen": "https://placehold.co/200x200/3b6e47/ffffff?text=Aragorn",
+        "frases": ["Por Frodo", "Hoy no es ese día"]
+    },
+    {
+        "id": 3,
+        "nombre": "Gimli",
+        "raza": "Enano",
+        "bando": "comunidad",
+        "nivel": 70,
+        "arma": "Hacha",
+        "imagen": "https://placehold.co/200x200/8b5a2b/ffffff?text=Gimli",
+        "frases": ["¡Y mi hacha!", "Nadie lanza a un enano"]
+    },
+    {
+        "id": 4,
+        "nombre": "Legolas",
+        "raza": "Elfo",
+        "bando": "comunidad",
+        "nivel": 75,
+        "arma": "Arco élfico",
+        "imagen": "https://placehold.co/200x200/8fbcd4/ffffff?text=Legolas",
+        "frases": ["Un sol rojo se alza", "Han derramado sangre esta noche"]
+    },
+    {
+        "id": 5,
+        "nombre": "Frodo Bolsón",
+        "raza": "Hobbit",
+        "bando": "comunidad",
+        "nivel": 12,
+        "arma": "Aguijón",
+        "imagen": "https://placehold.co/200x200/4a7c59/ffffff?text=Frodo",
+        "frases": ["Yo llevaré el anillo a Mordor", "Aunque no sé el camino"]
+    },
+    {
+        "id": 6,
+        "nombre": "Samwise Gamyi",
+        "raza": "Hobbit",
+        "bando": "comunidad",
+        "nivel": 35,
+        "arma": "Espada corta",
+        "imagen": "https://placehold.co/200x200/7a9e5c/ffffff?text=Sam",
+        "frases": [
+            "No puedo llevarlo por usted, pero puedo cargar con usted",
+            "Hay algo bueno en este mundo, señor Frodo"
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Meriadoc Brandigamo",
+        "raza": "Hobbit",
+        "bando": "comunidad",
+        "nivel": 28,
+        "arma": "Espada corta",
+        "imagen": "https://placehold.co/200x200/5f8f68/ffffff?text=Merry",
+        "frases": ["Somos parte de la Comunidad", "No nos dejarás atrás"]
+    },
+    {
+        "id": 8,
+        "nombre": "Peregrin Tuk",
+        "raza": "Hobbit",
+        "bando": "comunidad",
+        "nivel": 25,
+        "arma": "Espada corta",
+        "imagen": "https://placehold.co/200x200/6b9f7a/ffffff?text=Pippin",
+        "frases": [
+            "¿Qué hay del segundo desayuno?",
+            "No sabía que estabas despierto"
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Gollum",
+        "raza": "Hobbit corrompido",
+        "bando": "mordor",
+        "nivel": 45,
+        "arma": "Sigilo y engaño",
+        "imagen": "https://placehold.co/200x200/556b2f/ffffff?text=Gollum",
+        "frases": ["Mi precioso", "¡Nos lo robaron!"]
+    },
+    {
+        "id": 10,
+        "nombre": "Sauron",
+        "raza": "Maia",
+        "bando": "mordor",
+        "nivel": 100,
+        "arma": "El Anillo Único",
+        "imagen": "https://placehold.co/200x200/8b0000/ffffff?text=Sauron",
+        "frases": [
+            "Un anillo para gobernarlos a todos",
+            "Y atarlos en las tinieblas"
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "Gandalf",
+        "raza": "Mago",
+        "bando": "comunidad",
+        "nivel": 99,
+        "arma": "Glamdring",
+        "imagen": "https://placehold.co/200x200/d9d9d9/333333?text=Gandalf",
+        "frases": ["¡No puedes pasar!", "Un mago nunca llega tarde, ni pronto"]
+    },
+    {
+        "id": 12,
+        "nombre": "Saruman",
+        "raza": "Mago",
+        "bando": "isengard",
+        "nivel": 95,
+        "arma": "Báculo de Saruman",
+        "imagen": "https://placehold.co/200x200/f5f5f5/333333?text=Saruman",
+        "frases": [
+            "Contra el poder de Mordor no puede haber victoria",
+            "Debemos unirnos a él, Gandalf"
+        ]
+    },
+    {
+        "id": 13,
+        "nombre": "Rey Brujo de Angmar",
+        "raza": "Nazgûl",
+        "bando": "mordor",
+        "nivel": 90,
+        "arma": "Espada y maza",
+        "imagen": "https://placehold.co/200x200/1c1c1c/ffffff?text=Rey+Brujo",
+        "frases": [
+            "Ningún hombre puede matarme",
+            "La hora de la muerte ha llegado"
+        ]
+    }
+]

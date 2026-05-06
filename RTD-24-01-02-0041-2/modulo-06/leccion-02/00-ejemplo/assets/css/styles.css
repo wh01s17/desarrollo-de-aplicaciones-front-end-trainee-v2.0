@@ -1,0 +1,9 @@
+.app {
+    max-width: 640px;
+}
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
