@@ -1,11 +1,4 @@
-<script setup>
-const productos = [
-  {
-    nombre: 'Manzana',
-    precio: 2000,
-  },
-]
-</script>
+<script setup></script>
 
 <template>
   <header class="app-header">
