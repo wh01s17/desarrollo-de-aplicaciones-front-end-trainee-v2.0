@@ -1,0 +1,2 @@
+DELETE https://reqres.in/api/users/2
+x-api-key: free_user_3EEUV19Zs7kb4yLFOQT1v6QoUrY
