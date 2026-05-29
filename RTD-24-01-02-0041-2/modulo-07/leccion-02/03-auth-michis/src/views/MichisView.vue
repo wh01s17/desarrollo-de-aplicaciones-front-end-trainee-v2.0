@@ -12,7 +12,7 @@ const michiDB = collection(db, 'michis')
 const michis = useCollection(michiDB)
 
 // Usuario logueado actual
-const user = useCurrentUser(michiDB)
+const user = useCurrentUser()
 
 const nombre = ref('')
 const superpoder = ref('')
