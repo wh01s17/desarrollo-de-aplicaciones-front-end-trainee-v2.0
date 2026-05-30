@@ -22,7 +22,7 @@ const logut = async () => {
 
       <RouterLink v-if="!user" class="nav-link" to="/register"> Registro </RouterLink>
 
-      <RouterLink v-if="user" class="nav-link" to="/michis"> Michis </RouterLink>
+      <RouterLink v-if="user" class="nav-link" to="/michis"> Mis michis </RouterLink>
 
       <span v-if="user" class="text-muted small">{{ user.email }}</span>
       <button v-if="user" class="btn btn-outline-secondary btn-sm" @click="logut">Salir</button>

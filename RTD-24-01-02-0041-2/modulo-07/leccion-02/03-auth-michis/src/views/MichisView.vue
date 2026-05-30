@@ -1,18 +1,31 @@
 <script setup>
 import { useCollection, useCurrentUser } from 'vuefire'
 
-import { collection, doc, addDoc, serverTimestamp, deleteDoc, updateDoc } from 'firebase/firestore'
+import {
+  collection,
+  doc,
+  addDoc,
+  serverTimestamp,
+  deleteDoc,
+  updateDoc,
+  query,
+  where,
+} from 'firebase/firestore'
 import { db } from '../firebase'
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+
+const user = useCurrentUser()
 
 // michiDB es la coleccion de firestore
 const michiDB = collection(db, 'michis')
 
+const misMichisQuery = computed(() =>
+  user.value ? query(michiDB, where('ownerId', '==', user.value.uid)) : null,
+)
 // michis es un array reactivo , SIEMPRE sincronizado con Firestore
-const michis = useCollection(michiDB)
+const michis = useCollection(misMichisQuery)
 
 // Usuario logueado actual
-const user = useCurrentUser()
 
 const nombre = ref('')
 const superpoder = ref('')
