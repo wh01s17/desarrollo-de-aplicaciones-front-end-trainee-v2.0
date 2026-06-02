@@ -1,5 +1,20 @@
 export default {
+  namespaced: true,
+
   state: () => ({
-    valor: 0,
+    logueado: false,
   }),
+
+  getters: {
+    estaLogueado: (state) => state.logueado,
+  },
+
+  mutations: {
+    login(state) {
+      state.logueado = true
+    },
+    logout(state) {
+      state.logueado = false
+    },
+  },
 }
