@@ -5,6 +5,7 @@ import MyFooter from './components/MyFooter.vue'
 import NavBar from './components/NavBar.vue'
 import loaderSvg from './assets/img/loader.svg'
 import CardItem from './components/CardItem.vue'
+import { api } from './api/api.js'
 
 const series = ref([])
 const filter = ref('')
@@ -21,11 +22,9 @@ const obtenerDatos = async () => {
   error.value = null
 
   try {
-    const response = await fetch(`https://api.tvmaze.com/search/shows?q=${filter.value}`)
+    const { data } = await api.get(`/search/shows?q=${filter.value}`)
 
-    if (!response.ok) throw new Error('No se pudo conectar a la API')
-
-    const data = await response.json()
+    console.log(data)
 
     series.value = data.map(({ show }) => {
       return {
@@ -52,7 +51,7 @@ watch(filter, async () => {
 
 <template>
   <div class="d-flex flex-column min-vh-100">
-    <!-- <NavBar /> -->
+    <NavBar />
     <MyCarousel />
 
     <main class="container py-5 flex-grow-1">
