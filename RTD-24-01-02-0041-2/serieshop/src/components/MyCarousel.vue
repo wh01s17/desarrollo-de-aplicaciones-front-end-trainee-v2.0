@@ -93,7 +93,7 @@ onMounted(async () => {
 })
 
 // Limpieza para evitar timers huerfanos
-onBeforeUnmount(detenerAutoplay())
+onBeforeUnmount(detenerAutoplay)
 </script>
 
 <template>
