@@ -1,0 +1,37 @@
+"Blooket
+Import Template",,,,,,,
+Question #,Question Text,Answer 1,Answer 2,"Answer 3
+(Optional)","Answer 4
+(Optional)","Time Limit (sec)
+(Max: 300 seconds)","Correct Answer(s)
+(Only include Answer #)"
+1,"En BEM, ¿cómo se escribe un ""elemento"" dentro de un bloque?",bloque__elemento,bloque-elemento,bloque--elemento,bloque.elemento,20,1
+2,¿Para qué sirve principalmente Sass/SCSS?,Para hacer peticiones a una API,"Para escribir CSS con variables, anidamiento y reutilización",Para reemplazar a JavaScript,Para diseñar en Figma,20,2
+3,¿Cuál es una diferencia clave entre CSS Grid y Flexbox?,Flexbox solo funciona en móviles,Grid no usa CSS,Grid es 2D; Flexbox es principalmente 1D,Son exactamente lo mismo,20,3
+4,¿Qué pasa si reasignas un valor a una variable const?,Cambia su valor sin problema,Se convierte en let,Se vuelve undefined,Da un error,20,4
+5,¿Cuál nombre de variable es válido en JavaScript?,nombreDeUsuario,1nombre,my-name,class,20,1
+6,¿Qué significa undefined?,"El programador asignó ""vacío"" a propósito",Una variable fue declarada pero aún no tiene valor asignado,Es un número inválido,Es un error de sintaxis,20,2
+7,¿Con qué se escriben los template literals en JavaScript?,"Comillas dobles ""...""",Comillas simples '...',Backticks `...`,Paréntesis (...),20,3
+8,¿Qué método transforma cada elemento y devuelve un array nuevo?,push(),length,if(),map(),20,4
+9,¿Qué hace filter()?,Devuelve un array solo con los elementos que cumplen una condición,Suma todos los elementos,Ordena el array de mayor a menor,Borra el array completo,20,1
+10,¿Cuál es una función flecha correcta que suma dos números?,"function => (a, b)","(a, b) => a + b","=> (a, b) { a + b }","a + b => (a, b)",20,2
+11,¿Qué método permite escuchar un clic en un elemento del DOM?,getElementById('click'),console.log('click'),"addEventListener('click', ...)",document.click(),20,3
+12,¿Qué función se usa comúnmente para pedir datos a una API?,print(),alert(),loop(),fetch(),20,4
+13,¿Qué palabra clave espera a que una promesa se resuelva?,await,wait,stop,pause,20,1
+14,¿Qué es JSON?,Un lenguaje de programación nuevo,Un formato de texto para intercambiar datos,Una librería de CSS,Un navegador,20,2
+15,¿Qué describe mejor el enfoque declarativo de Vue?,Manipular el DOM manualmente paso a paso,Crear HTML sin datos,Definir qué quieres ver y dejar que Vue actualice el DOM por ti,Evitar completamente JavaScript,30,3
+16,Un Single File Component de Vue normalmente se divide en las etiquetas:,"head, body, footer","html, css, js","div, span, p","template, script, style",30,4
+17,¿Para qué sirven los props en Vue?,Enviar datos desde un componente padre hacia un componente hijo,Aplicar estilos CSS globales,Conectarse a una base de datos,Crear bucles infinitos,30,1
+18,¿Qué directiva renderiza una lista a partir de un array?,v-if,v-for,v-model,v-show,20,2
+19,¿Qué directiva crea two-way binding en formularios?,v-for,v-bind,v-model,v-once,20,3
+20,¿Qué directiva se usa para enlazar dinámicamente un atributo?,v-bind,v-for,v-once,v-html,20,1
+21,¿Qué directiva se usa para escuchar eventos en Vue?,v-for,v-if,v-on,v-model,20,3
+22,¿Cuál es la forma corta de v-bind:src?,@src,:src,#src,$src,20,2
+23,¿Cuál es la forma corta de v-on:click?,:click,#click,@click,$click,20,3
+24,¿Qué hace computed en Vue?,Ejecuta código solo al montar el componente,Calcula un valor derivado y lo cachea según sus dependencias,Reemplaza a todos los métodos,Sirve solo para formularios,30,2
+25,¿Qué significa emitir un evento en Vue?,Enviar información desde un hijo hacia un padre,Crear una ruta nueva,Eliminar un componente,Cambiar el CSS global,30,1
+26,¿Qué problema resuelve Vue Router?,Crear estilos reutilizables,Manejar navegación entre vistas en una SPA,Crear bases de datos,Reemplazar los componentes,30,2
+27,¿Qué componente muestra la vista activa de Vue Router?,RouterLink,VuePage,MainRoute,RouterView,20,4
+28,¿Qué herramienta se recomienda actualmente para manejar estado global en Vue?,Bootstrap,Sass,Figma,Pinia,20,4
+29,¿Para qué sirven los tests unitarios?,Para comprobar partes pequeñas del código de forma aislada,Para desplegar la aplicación,Para reemplazar GitHub,Para escribir HTML automáticamente,30,1
+30,¿Qué aprendimos en Vue?,Que todo era culpa de JavaScript,"Que si no funciona, probablemente falta un import",Que dividir en componentes salva vidas,Todas las anteriores,30,4
